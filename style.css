@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*========== Taskbar ================*/
+.info {
+    text-align: center;
+    background-color: #F001EF;
+    border-bottom: 4px solid #FFFFFF;
+}
+.info li {
+    display: inline-block;
+    text-align: center;
+    padding: 30px ;
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+/* =========== Page Heading =============*/
+.header {
+    margin-top: 60px;
+    margin-left: 50px;
+    
+}
+.header h2 {
+    margin-top: 25px;
+    margin-left: 120px; 
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+
+}   
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: #F001EF;
+    text-shadow: 3px 3px white;
+    padding-top: 100px;
+    padding-left: 100px;
+
+    
+}
+.best-sellers {
+    border: 3px solid black;
+    margin: 0px 0px 100px 70px;
+    padding: 50px 0px 0px 0px;
+    width: 515px;
+    background-color: #FAEC58;
+     
+}
+.best-sellers-img img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 105px;
+    border-radius: 90%; 
+    border: 2px solid white;
+}
+
+
+body {
+    background-color: #ffffff;
+    border:1px solid rgb(54, 52, 52);
+    
+
+}
+.header {
+    background-color: #00F2DF;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-bottom: 1px solid black
+    
+}
+
+.best-sellers-description h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #F001EF;
+
+}
+.best-sellers-description h3 {
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+.best-sellers-description p {
+    display: inline-block;
+    
+}
+.best-sellers-description li {
+    list-style: none;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Lato', sans-serif;
+
+}
+.best-sellers-description a {
+    color: #ffffff;
+    background-color: #F001EF;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 2px 3px black;
+}
+.best-sellers-description a:hover {
+    background-color: #FF7CED;
+}
+.best-sellers-description a:active {
+    background-color: lightgrey;
+    box-shadow: 0px 0px;
+}
+.info a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.info a:hover {
+    cursor: pointer;
+    color: rgb(17, 16, 16);
+    text-transform: uppercase;
+}
+.info a:active {
+    color: lightgrey;
+}
+.most-popular-title {
+    font-family: 'Lato', sans-serif;
+    color: #F001EF;
+    margin: 100px 0px 20px 70px;
+    font-size: 30px;
+    
+}
+.most-popular {
+ 
+}
+footer {
+    background-color: #B30094;
+    padding: 30px;
+}
+.footer p{
+    color: #FFF;
+    text-align: center;
+
+}
